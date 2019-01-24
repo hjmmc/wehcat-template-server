@@ -1,0 +1,27 @@
+{
+  "name": "wehcat-template-server",
+  "version": "1.0.0",
+  "description": "wehcat-template-server",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hjmmc/wehcat-template-server.git"
+  },
+  "keywords": [
+    "wehcat"
+  ],
+  "author": "hjmmc",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/hjmmc/wehcat-template-server/issues"
+  },
+  "homepage": "https://github.com/hjmmc/wehcat-template-server#readme",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "node-fetch": "^2.3.0"
+  }
+}

@@ -57,6 +57,13 @@ server.sendTemplate({
 })
 ```
 
+|参数名|必选|类型|说明|
+|:----    |:---|:----- |-----   |
+|touser     |是  |string | 用户OpenID    |
+|template_id|是  |string | 模版ID    |
+|topcolor     |是  |string | 颜色    |
+|data     |是  |object | 字段    |
+
 ### 2.refreshAccessToken
 >手动刷新accessToken
 
@@ -65,13 +72,6 @@ server.refreshAccessToken().then(accessToken => {
     console.log(accessToken)
 })
 ```
-
-|参数名|必选|类型|说明|
-|:----    |:---|:----- |-----   |
-|touser     |是  |string | 用户OpenID    |
-|template_id|是  |string | 模版ID    |
-|topcolor     |是  |string | 颜色    |
-|data     |是  |object | 字段    |
 
 
 ## Http-API
